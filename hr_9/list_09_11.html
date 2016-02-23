@@ -8,37 +8,62 @@
     <title>David Petringa | HTML5 Brunch, Season 6</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     
-    <style>
-    </style>
     <!--HTML5 shim and Reapond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     	<!== [endif] -->
+    	
+    <style>
+     	#formField:focus{
+     		border-color:#7B66E9;
+     		outline: 0;
+     		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0, .075), 0 0 8px rgba(170,158,232,0.5);
+	     		    box-shadow: inset 0 1px 1px rgba(0,0,0, .075), 0 0 8px rgba(170,158,232,0.5);
+	     		    color:green;
+	     	}
+    </style>
     </head>
 	<body>
 		
 	<div class="container">	
 		
-		
-	    	<h1>Listing 7_5</h1>
-	    	
-	    	<blockquote>
-	    		<p>'Twas brillig, and the slithy toves<br>
-	    			Did gyre and gimble in the wabe:<br>
-	    			All mimsy were the borogoves,<br>
-	    			And the mome raths outgrabe.</p>
-	    			<footer>by Lewis Carroll from <cite title="The Jabberwocky">
-	    				"The Jabberwocky"
-	    			</cite></footer>
-	   	</blockquote>
-		 
-		 
-		 
-		 <h1>Listing 7_6</h1>
-		 <p>I wrote a book on <abbr title="HyperText Markup Language 5"
-		 	class="initialism">HTML5</abbr> and another on <abbr title="Responsive Web Design" class="initialism">RWD</abbr>.</p>
+			<h1>Listing 9_11</h1>
+			 
+			<input type="text" autofocus  class="form-control" id="formField" placeholder="I added font color green and autofocus">
+			 
+			
+			<h1>Listing 9_12</h1>
+			
+			<form>
+				<div class="form-group has-success">
+					<label for="textSuccess">Success</label>
+					<input type="text" class="form-control" id="textSuccess" placeholder="Success">
+				</div>
+				
+				<div class="form-group has-warning">
+					<label for="textWarning">Warning</label>
+					<input type="text" class="form-control" id="textWarning" placeholder="Warning">
+				</div>
+				
+				<div class="form-group has-error">
+					<label for="textError">Error</label>
+					<input type="text" class="form-control" id="textError" placeholder="Error">
+				</div>
+				
+			</form>
+			
+			
+			<h1>Listing 9_13</h1>
+			
+			<div class="form-group has-success has-feedback">
+				<label for="textSuccess">Success</label>
+				<input type="text" class="form-control" id="textSuccess" placeholder="Success">
+				<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+			</div>
+			
+			
 	</div><!--ENDcontainer-->
 	
 		

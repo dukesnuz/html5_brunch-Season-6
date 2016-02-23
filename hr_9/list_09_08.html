@@ -16,53 +16,81 @@
     	<!== [endif] -->
     	
     <style>
-    	.table-striped>tbody>tr:nth-of-type(odd){
-    		background-color: #d6adfa;
-    	}
+     
     </style>
     </head>
 	<body>
 		
 	<div class="container">	
-			<h1>Listing 8_3</h1>
-	    	
-	    	<table class="table table-striped">
-	    		<caption>Contact Information</caption>
-	    		<thead>
-	    			<tr>
-	    				<th>Name</th>
-	    				<th>Title</th>
-	    				<th>URL</th>
-	    				<th>Email</th>
-	    			</tr>
-	    		</thead>
-	    		<tbody>
-	    			<tr>
-	    				<td>Jennifer Kyrnin</td>
-	    				<td>Chief Dandylion Officer</td>
-	    				<td>http://htmljenn.com</td>
-	    				<td>htmljenn@gmail.com</td>
-	    			</tr>
-	    			<tr>
-	    				<td>McKinley</td>
-	    				<td>Dandelion Observation Officer</td>
-	    				<td>http://responsivewebdesignin24hours.com/mckinley</td>
-	    				<td>mckinley@rwdin24hours.com</td>
-	    			</tr>
-	    			<tr>
-	    				<td>Rambler</td>
-	    				<td>Chief Taste Tester</td>
-	    				<td>http://responsivewebdesignin24hours.com/mckinley</td>
-	    				<td>mckinley@rwdin24hours.com</td>
-	    			</tr>
-	    		</tbody>
-	    		<tfoot>
-	    			<tr>
-	    				<td colspan="4"><p>Mckinley and Rambler are a dog and a horese, respectively.</p></td>
-	    			</tr>
-	    		</tfoot>
-	    	</table>
-	    	
+		
+			<h1>Listing 9_8</h1>
+			
+			<form action="#" class="form-inline">
+				<div class="form-group">
+					<div class="input-group">
+						<label for="cost" class="sr-only">Amount</label>
+							<div class="input-group-addon">$</div>
+							<div><input type="number" required id="cost" placeholder="Amount" class="form-control"></div>
+							<div class="input-group-addon">.00</div>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-default">Send Bagels</button>
+			</form>
+			
+			
+			
+				<h1>Listing 9_9</h1>
+			
+			<p>
+				<div class="input-group input-group-lg">
+					<label for="username" class="sr-only">Username</label>
+					<span class="input-group-addon">
+					<span class="glyphicon glyphicon-user"></span></span>
+					<input type="text" required id="email" placeholder="Username" class="form-control">
+				</div>
+			</p>
+			
+			<p>
+				<div class="input-group">
+					<label for="username" class="sr-only">Username</label>
+					<span class="input-group-addon">
+					<span class="glyphicon glyphicon-user"></span></span>
+					<input type="text" required id="email" placeholder="Username" class="form-control">
+				</div>
+			</p>
+			
+			<p>
+				<div class="input-group input-group-sm">
+					<label for="username" class="sr-only">Username</label>
+					<span class="input-group-addon">
+					<span class="glyphicon glyphicon-user"></span></span>
+					<input type="text" required id="email" placeholder="Username" class="form-control">
+				</div>
+			</p>
+			
+			
+			<h1>Listing 9_10</h1>
+			
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="input-group">
+						<span class="input-group-addon">
+							<input type="checkbox" id="other" aria-label="other" value="other">
+						</span>
+						<input type="text" id="otherText" class="form-control" aria-label="Other Text" placeholder="other text">
+					</div>
+				</div>
+				
+				<div class="col-lg-6">
+					<div class="input-group">
+						<span class="input-group-addon">
+							<input type="radio" id="other2" aria-label="Other 2" value="other2">
+						</span>
+						<input type="text" id="otherText2" class="form-control" aria-label="Other Text 2" placeholder="other text">
+					</div>
+				</div>
+			</div>
+			
 	</div><!--ENDcontainer-->
 	
 		
